@@ -111,9 +111,8 @@ export function HeroSection() {
           </div>
 
           {/* RIGHT SIDE - COMPLETELY REDESIGNED */}
-          <div className="hidden lg:flex lg:col-span-5 items-center justify-center relative">
-            <div className="relative w-[500px] h-[500px] flex items-center justify-center">
-
+         <div className="flex lg:col-span-5 items-center justify-center relative mt-12 lg:mt-0">
+           <div className="relative w-[320px] h-[320px] sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px] flex items-center justify-center">
               {/* Main Orbital System */}
               
               {/* Outer Ring with glowing particles */}
