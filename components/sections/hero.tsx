@@ -17,7 +17,7 @@ export function HeroSection() {
   >([]);
 
   useEffect(() => {
-    const end = 2;
+    const end = 3;
     const duration = 1500;
     const startTime = performance.now();
 

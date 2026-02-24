@@ -32,6 +32,18 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/shridharshini123/Jewelry_background_remover.git",
   },
   {
+    id:"AI resume screener",
+    title: "AI Resume Screener – Automated Candidate Evaluation System",
+    description:
+      "AI-powered system to evaluate resumes and match candidates to job requirements.",
+    longDescription:
+       "An AI-driven resume screening tool that evaluates candidate profiles against job descriptions. The system uses natural language processing (NLP) and machine learning models to extract key skills, experience, and qualifications from resumes. It then matches these against predefined job criteria, providing a ranked list of candidates based on relevance and fit. The application streamlines the initial screening process, reducing manual effort and improving the accuracy of candidate selection.",
+
+    thumbnail: "/images/projects/Resume-Screening/thumbnail.jpeg",
+    techStack: ["Python", "NLP","SBERT"],
+    githubUrl: "https://github.com/shridharshini123/AI-Resume-Screening.git",
+  },
+  {
     id: "EOL_testing",
     title: "End-of-Line Testing System – Motor Signal Analysis & Quality Control",
     description:
@@ -55,7 +67,18 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/shridharshini123/Password-Manager.git",
     
   },
-  
+  {
+    id:"Email-Spam-Detection",
+    title: "Email Spam Detection – AI-Powered Classification System",
+    description:
+      "AI-powered system to classify emails as spam or not spam using machine learning.",
+    longDescription:
+       "Developed an email spam detection system using machine learning algorithms. The system analyzes email content, metadata, and patterns to classify incoming emails as either spam or legitimate. It leverages natural language processing (NLP) techniques and supervised learning models to improve classification accuracy over time. The application helps users filter out unwanted emails efficiently, reducing clutter and improving productivity.",
+
+    thumbnail: "/images/projects/Email-Spam-Detection/thumbnail.jpg",
+    techStack: ["Python", "ML", "NLP", "Scikit-learn","Pandas", "Matplotlib"],
+    githubUrl: "https://github.com/shridharshini123/Email-Spam-Detection.git",
+  },
 ];
 
 export const skillCategories: SkillCategory[] = [
