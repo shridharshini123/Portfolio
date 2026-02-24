@@ -53,7 +53,7 @@ export function IndustryEngagementSection() {
   const height = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   return (
-    <section ref={ref} className="relative py-40 px-6 overflow-hidden">
+    <section ref={ref} className="relative py-40 px-6 overflow-hidden" id="lectures">
 
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/5" />
