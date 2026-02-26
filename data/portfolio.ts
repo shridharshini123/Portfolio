@@ -99,18 +99,6 @@ export const projects: Project[] = [
     thumbnail: "/images/projects/sbs360/thumbnail.jpeg",
     githubUrl: "https://github.com/shridharshini123/"
   },
-  {
-    id: "ai-resume-screener",
-    title: "AI Resume Screener – Automated Candidate Evaluation System",
-    description:
-      "AI-powered system to evaluate resumes and match candidates to job requirements.",
-    longDescription:
-       "The AI Resume Screener is an end-to-end intelligent candidate evaluation system designed to automate and enhance the initial recruitment screening process. The platform leverages advanced Natural Language Processing (NLP) techniques and transformer-based semantic embedding models to analyze unstructured resume data and compare it against structured job descriptions.\n\n      The system extracts critical attributes such as technical skills, certifications, years of experience, education level, domain expertise, and contextual project relevance using entity recognition and text parsing pipelines. Instead of relying on simple keyword matching, the application uses Sentence-BERT (SBERT) embeddings to compute semantic similarity between candidate profiles and job requirements, enabling deeper contextual understanding.\n\n      A weighted scoring engine ranks candidates based on configurable parameters such as skill match percentage, experience alignment, and domain relevance. The model also supports threshold filtering, allowing recruiters to shortlist high-fit candidates instantly.\n\n      To improve robustness, preprocessing steps include PDF/DOCX parsing, stop-word removal, lemmatization, skill normalization, and duplicate detection. The system architecture is modular, enabling integration with HR databases or Applicant Tracking Systems (ATS).\n\n      Performance evaluation includes similarity score benchmarking, precision/recall measurement for shortlisted candidates, and ranking consistency validation. The solution significantly reduces manual screening time while improving fairness and consistency in candidate evaluation.",
-
-    thumbnail: "/images/projects/Resume-Screening/thumbnail.jpeg",
-    techStack: ["Python", "NLP","SBERT"],
-    githubUrl: "https://github.com/shridharshini123/AI-Resume-Screening.git",
-  },
 
   {
     id: "EOL_testing",
@@ -131,7 +119,7 @@ export const projects: Project[] = [
       "Secure password vault with encryption, generation, and multi-account management.",
     longDescription:
       "A secure password manager interface was developed with a strong emphasis on balancing usability and advanced security mechanisms. The system enables users to store, generate, and organize credentials for multiple accounts within a structured and streamlined environment. The goal was to reduce friction in password management while ensuring that sensitive information remains fully protected through rigorous security controls.\n\n      From a security standpoint, industry-aligned encryption practices were integrated to safeguard stored credentials. Sensitive data is encrypted prior to storage and remains inaccessible in plaintext form. Authentication workflows are reinforced with secure session handling, access controls, and strict validation mechanisms to prevent unauthorized entry. Additional protections such as password strength enforcement, session expiration, and secure key handling strengthen the overall defensive architecture.\n\n      The interface was designed to prioritize clarity, efficiency, and minimal cognitive load. A clean dashboard layout allows users to quickly search, categorize, and manage credentials without unnecessary navigation complexity. The built-in password generator supports configurable parameters such as length, special characters, and complexity rules, enabling the creation of high-entropy passwords tailored to modern security standards. Clear visual cues and feedback states enhance user confidence during interaction.\n\n      Architecturally, the system separates presentation layers from secure backend operations responsible for encryption and data management. All API communication follows secure transmission protocols, and consistent input validation helps mitigate common vulnerabilities such as injection attacks. This separation of concerns improves scalability, maintainability, and long-term reliability.\n\n      Overall, the project reflects a structured integration of secure engineering principles with user-centered interface design. Strong protection mechanisms operate seamlessly in the background while maintaining a smooth and intuitive user experience, demonstrating that usability and security can coexist without compromise.",
-    thumbnail: "/images/projects/password-manager/thumbnail.jpg",
+    thumbnail: "/images/projects/Password-Manager/thumbnail.jpg",
     techStack: ["Python", "Flask", "SQL", "HTML", "CSS", "JavaScript", "Cryptography Libraries"],
     githubUrl: "https://github.com/shridharshini123/Password-Manager.git",
     
