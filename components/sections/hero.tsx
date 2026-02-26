@@ -64,14 +64,14 @@ export function HeroSection() {
           <div className="lg:col-span-7 flex flex-col gap-6 relative z-10">
 
             {/* Animated badge */}
-            <div className="inline-flex items-center gap-2 self-start rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm text-muted-foreground backdrop-blur-sm group hover:border-primary/40 transition-all duration-300">
+            {/* <div className="inline-flex items-center gap-2 self-start rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm text-muted-foreground backdrop-blur-sm group hover:border-primary/40 transition-all duration-300">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
               </span>
               Available for work
               <ArrowRight className="h-3 w-3 group-hover:translate-x-1 transition-transform" />
-            </div>
+            </div>*/}
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-foreground">
               Hi, I'm{" "}
