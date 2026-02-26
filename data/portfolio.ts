@@ -100,7 +100,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/shridharshini123/"
   },
   {
-    id:"AI resume screener",
+    id: "ai-resume-screener",
     title: "AI Resume Screener – Automated Candidate Evaluation System",
     description:
       "AI-powered system to evaluate resumes and match candidates to job requirements.",
@@ -111,6 +111,7 @@ export const projects: Project[] = [
     techStack: ["Python", "NLP","SBERT"],
     githubUrl: "https://github.com/shridharshini123/AI-Resume-Screening.git",
   },
+
   {
     id: "EOL_testing",
     title: "End-of-Line Testing System – Motor Signal Analysis & Quality Control",
@@ -134,6 +135,18 @@ export const projects: Project[] = [
     techStack: ["Python", "Flask", "SQL", "HTML", "CSS", "JavaScript", "Cryptography Libraries"],
     githubUrl: "https://github.com/shridharshini123/Password-Manager.git",
     
+  },
+  {
+    id:"AI resume screener",
+    title: "AI Resume Screener – Automated Candidate Evaluation System",
+    description:
+      "AI-powered system to evaluate resumes and match candidates to job requirements.",
+    longDescription:
+       "An AI-driven resume screening tool that evaluates candidate profiles against job descriptions. The system uses natural language processing (NLP) and machine learning models to extract key skills, experience, and qualifications from resumes. It then matches these against predefined job criteria, providing a ranked list of candidates based on relevance and fit. The application streamlines the initial screening process, reducing manual effort and improving the accuracy of candidate selection.",
+
+    thumbnail: "/images/projects/Resume-Screening/thumbnail.jpeg",
+    techStack: ["Python", "NLP","SBERT"],
+    githubUrl: "https://github.com/shridharshini123/AI-Resume-Screening.git",
   },
   {
     id:"Email-Spam-Detection",
